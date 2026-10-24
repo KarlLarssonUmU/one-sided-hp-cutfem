@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+reports/
+published/
+
+# Local operating-system files and environments
+.DS_Store
+Thumbs.db
+venv/

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this software using the metadata in this file. See LICENSE for component-specific licensing."
+type: software
+title: "Numerical Companion to One-Sided p-Explicit Stability for High-Order Cut Finite Element Nitsche Methods"
+authors:
+  - family-names: Burman
+    given-names: Erik
+  - family-names: Hansbo
+    given-names: Peter
+  - family-names: Larson
+    given-names: Mats G.
+  - family-names: Larsson
+    given-names: Karl
+version: "2026.10.24-code.2"
+doi: "10.5281/zenodo.23205908"
+repository-code: "https://github.com/KarlLarssonUmU/one-sided-hp-cutfem"
+license-url: "https://github.com/KarlLarssonUmU/one-sided-hp-cutfem/blob/main/LICENSE"
+abstract: "Experiment code, compact reference results, regenerable exact tube certificates and the Numerical Verification Guide PDF for the hp stability paper. Code and software documentation use MIT; numerical data and the guide use CC BY 4.0. See LICENSE for scope."
+keywords:
+  - finite elements
+  - Nitsche methods
+  - unfitted methods
+  - numerical reproducibility

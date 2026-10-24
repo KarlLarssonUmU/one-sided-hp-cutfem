@@ -1,0 +1,5753 @@
+{
+  "baseline": {
+    "EXT-N12-p8-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N12-p8-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 12,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N12-p8-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N12-p8-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 12,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N16-p8-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N16-p8-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 16,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 8,
+        "memory_gib": 24,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "EXT-N16-p8-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N16-p8-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 16,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 8,
+        "memory_gib": 24,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "EXT-N24-p2-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N24-p2-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 8,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N24-p2-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N24-p2-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 8,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N24-p4-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N24-p4-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 16,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N24-p4-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N24-p4-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 16,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N24-p6-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N24-p6-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 8,
+        "memory_gib": 32,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "EXT-N24-p6-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N24-p6-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 8,
+        "memory_gib": 32,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "EXT-N24-p8-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N24-p8-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 8,
+        "memory_gib": 64,
+        "gpus": 0,
+        "seconds": 7200
+      }
+    },
+    "EXT-N24-p8-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N24-p8-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 24,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 8,
+        "memory_gib": 64,
+        "gpus": 0,
+        "seconds": 7200
+      }
+    },
+    "EXT-N4-p8-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N4-p8-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 4,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 8,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N4-p8-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N4-p8-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 4,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 8,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N8-p8-fixed_A": {
+      "parameters": {
+        "case_id": "EXT-N8-p8-fixed_A",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 8,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 8,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "EXT-N8-p8-fixed_B": {
+      "parameters": {
+        "case_id": "EXT-N8-p8-fixed_B",
+        "phase": "standard_refinement",
+        "case": {
+          "N": 8,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_refinement",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 8,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-001": {
+      "parameters": {
+        "case_id": "PAPER-001",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "axis",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2766666666666667,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-002": {
+      "parameters": {
+        "case_id": "PAPER-002",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "axis",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.28566666666666674,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-003": {
+      "parameters": {
+        "case_id": "PAPER-003",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "axis",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.28656666666666675,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-004": {
+      "parameters": {
+        "case_id": "PAPER-004",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "axis",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-005": {
+      "parameters": {
+        "case_id": "PAPER-005",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "diagonal",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.0980018031904607,
+            -0.0980018031904607
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-006": {
+      "parameters": {
+        "case_id": "PAPER-006",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "diagonal",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10436576422113963,
+            -0.10436576422113963
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-007": {
+      "parameters": {
+        "case_id": "PAPER-007",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "diagonal",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.1050021603242075,
+            -0.1050021603242075
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-008": {
+      "parameters": {
+        "case_id": "PAPER-008",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "diagonal",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-009": {
+      "parameters": {
+        "case_id": "PAPER-009",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "oblique",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.06053304007835891,
+            -0.21226725317661543
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-010": {
+      "parameters": {
+        "case_id": "PAPER-010",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "oblique",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05650811771885933,
+            -0.2203170978956146
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-011": {
+      "parameters": {
+        "case_id": "PAPER-011",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "oblique",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.056105625482909316,
+            -0.22112208236751463
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-012": {
+      "parameters": {
+        "case_id": "PAPER-012",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "oblique",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05606537625931435,
+            -0.22120258081470456
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-013": {
+      "parameters": {
+        "case_id": "PAPER-013",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "axis",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2766666666666667,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-014": {
+      "parameters": {
+        "case_id": "PAPER-014",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "axis",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.28566666666666674,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-015": {
+      "parameters": {
+        "case_id": "PAPER-015",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "axis",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.28656666666666675,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-016": {
+      "parameters": {
+        "case_id": "PAPER-016",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "axis",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-017": {
+      "parameters": {
+        "case_id": "PAPER-017",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "diagonal",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.0980018031904607,
+            -0.0980018031904607
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-018": {
+      "parameters": {
+        "case_id": "PAPER-018",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "diagonal",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10436576422113963,
+            -0.10436576422113963
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-019": {
+      "parameters": {
+        "case_id": "PAPER-019",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "diagonal",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.1050021603242075,
+            -0.1050021603242075
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-020": {
+      "parameters": {
+        "case_id": "PAPER-020",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "diagonal",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-021": {
+      "parameters": {
+        "case_id": "PAPER-021",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "oblique",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.06053304007835891,
+            -0.21226725317661543
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-022": {
+      "parameters": {
+        "case_id": "PAPER-022",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "oblique",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05650811771885933,
+            -0.2203170978956146
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-023": {
+      "parameters": {
+        "case_id": "PAPER-023",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "oblique",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.056105625482909316,
+            -0.22112208236751463
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-024": {
+      "parameters": {
+        "case_id": "PAPER-024",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "oblique",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05606537625931435,
+            -0.22120258081470456
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-025": {
+      "parameters": {
+        "case_id": "PAPER-025",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "axis",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2766666666666667,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-026": {
+      "parameters": {
+        "case_id": "PAPER-026",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "axis",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.28566666666666674,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-027": {
+      "parameters": {
+        "case_id": "PAPER-027",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "axis",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.28656666666666675,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-028": {
+      "parameters": {
+        "case_id": "PAPER-028",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "axis",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-029": {
+      "parameters": {
+        "case_id": "PAPER-029",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "diagonal",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.0980018031904607,
+            -0.0980018031904607
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-030": {
+      "parameters": {
+        "case_id": "PAPER-030",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "diagonal",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10436576422113963,
+            -0.10436576422113963
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-031": {
+      "parameters": {
+        "case_id": "PAPER-031",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "diagonal",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.1050021603242075,
+            -0.1050021603242075
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-032": {
+      "parameters": {
+        "case_id": "PAPER-032",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "diagonal",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-033": {
+      "parameters": {
+        "case_id": "PAPER-033",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "oblique",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.06053304007835891,
+            -0.21226725317661543
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-034": {
+      "parameters": {
+        "case_id": "PAPER-034",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "oblique",
+          "epsilon": 0.003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05650811771885933,
+            -0.2203170978956146
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-035": {
+      "parameters": {
+        "case_id": "PAPER-035",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "oblique",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.056105625482909316,
+            -0.22112208236751463
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-036": {
+      "parameters": {
+        "case_id": "PAPER-036",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "oblique",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05606537625931435,
+            -0.22120258081470456
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-037": {
+      "parameters": {
+        "case_id": "PAPER-037",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "axis",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2766666666666667,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-038": {
+      "parameters": {
+        "case_id": "PAPER-038",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "axis",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-039": {
+      "parameters": {
+        "case_id": "PAPER-039",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "diagonal",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.0980018031904607,
+            -0.0980018031904607
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-040": {
+      "parameters": {
+        "case_id": "PAPER-040",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "diagonal",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-041": {
+      "parameters": {
+        "case_id": "PAPER-041",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "oblique",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.06053304007835891,
+            -0.21226725317661543
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-042": {
+      "parameters": {
+        "case_id": "PAPER-042",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "oblique",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05606537625931435,
+            -0.22120258081470456
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-043": {
+      "parameters": {
+        "case_id": "PAPER-043",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "axis",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2766666666666667,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-044": {
+      "parameters": {
+        "case_id": "PAPER-044",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "axis",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-045": {
+      "parameters": {
+        "case_id": "PAPER-045",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "diagonal",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.0980018031904607,
+            -0.0980018031904607
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-046": {
+      "parameters": {
+        "case_id": "PAPER-046",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "diagonal",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-047": {
+      "parameters": {
+        "case_id": "PAPER-047",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "oblique",
+          "epsilon": 0.03,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.06053304007835891,
+            -0.21226725317661543
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-048": {
+      "parameters": {
+        "case_id": "PAPER-048",
+        "phase": "cut_stability",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "oblique",
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "patch_layers": 4,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.05606537625931435,
+            -0.22120258081470456
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-049": {
+      "parameters": {
+        "case_id": "PAPER-049",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 4,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-050": {
+      "parameters": {
+        "case_id": "PAPER-050",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 4,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-051": {
+      "parameters": {
+        "case_id": "PAPER-051",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 4,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-052": {
+      "parameters": {
+        "case_id": "PAPER-052",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 4,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-053": {
+      "parameters": {
+        "case_id": "PAPER-053",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 4,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-054": {
+      "parameters": {
+        "case_id": "PAPER-054",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 4,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-055": {
+      "parameters": {
+        "case_id": "PAPER-055",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-056": {
+      "parameters": {
+        "case_id": "PAPER-056",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-057": {
+      "parameters": {
+        "case_id": "PAPER-057",
+        "phase": "paper_pilot",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_reference_validation",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 600
+      }
+    },
+    "PAPER-058": {
+      "parameters": {
+        "case_id": "PAPER-058",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-059": {
+      "parameters": {
+        "case_id": "PAPER-059",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "reference": "data/references/p6-fixed_A.json.gz",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-060": {
+      "parameters": {
+        "case_id": "PAPER-060",
+        "phase": "paper_pilot",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_reference_validation",
+      "reference": "data/references/p6-fixed_B.json.gz",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 600
+      }
+    },
+    "PAPER-061": {
+      "parameters": {
+        "case_id": "PAPER-061",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 8,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-062": {
+      "parameters": {
+        "case_id": "PAPER-062",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 8,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-063": {
+      "parameters": {
+        "case_id": "PAPER-063",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 8,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-064": {
+      "parameters": {
+        "case_id": "PAPER-064",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 8,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-065": {
+      "parameters": {
+        "case_id": "PAPER-065",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 8,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-066": {
+      "parameters": {
+        "case_id": "PAPER-066",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 8,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-067": {
+      "parameters": {
+        "case_id": "PAPER-067",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 12,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-068": {
+      "parameters": {
+        "case_id": "PAPER-068",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 12,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-069": {
+      "parameters": {
+        "case_id": "PAPER-069",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 12,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "PAPER-070": {
+      "parameters": {
+        "case_id": "PAPER-070",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 12,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "PAPER-071": {
+      "parameters": {
+        "case_id": "PAPER-071",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 12,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "PAPER-072": {
+      "parameters": {
+        "case_id": "PAPER-072",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 12,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "PAPER-073": {
+      "parameters": {
+        "case_id": "PAPER-073",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 16,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-074": {
+      "parameters": {
+        "case_id": "PAPER-074",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 16,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-075": {
+      "parameters": {
+        "case_id": "PAPER-075",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 16,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "PAPER-076": {
+      "parameters": {
+        "case_id": "PAPER-076",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 16,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 4,
+        "memory_gib": 12,
+        "gpus": 0,
+        "seconds": 3600
+      }
+    },
+    "PAPER-077": {
+      "parameters": {
+        "case_id": "PAPER-077",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 16,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 6,
+        "memory_gib": 16,
+        "gpus": 0,
+        "seconds": 7200
+      }
+    },
+    "PAPER-078": {
+      "parameters": {
+        "case_id": "PAPER-078",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 16,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 6,
+        "memory_gib": 16,
+        "gpus": 0,
+        "seconds": 7200
+      }
+    },
+    "PAPER-079": {
+      "parameters": {
+        "case_id": "PAPER-079",
+        "phase": "paper_pilot",
+        "case": {
+          "N": 6,
+          "p": 1,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_reference_validation",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 600
+      }
+    },
+    "PAPER-080": {
+      "parameters": {
+        "case_id": "PAPER-080",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 1,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-081": {
+      "parameters": {
+        "case_id": "PAPER-081",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 3,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-082": {
+      "parameters": {
+        "case_id": "PAPER-082",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 3,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-083": {
+      "parameters": {
+        "case_id": "PAPER-083",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 5,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-084": {
+      "parameters": {
+        "case_id": "PAPER-084",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 5,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-085": {
+      "parameters": {
+        "case_id": "PAPER-085",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 7,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-086": {
+      "parameters": {
+        "case_id": "PAPER-086",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 7,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-087": {
+      "parameters": {
+        "case_id": "PAPER-087",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "reference": "data/references/p8-fixed_A.json.gz",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-088": {
+      "parameters": {
+        "case_id": "PAPER-088",
+        "phase": "smooth_hp",
+        "case": {
+          "N": 6,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "exponential"
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_smooth",
+      "reference": "data/references/p8-fixed_B.json.gz",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 4,
+        "gpus": 0,
+        "seconds": 1800
+      }
+    },
+    "PAPER-089": {
+      "parameters": {
+        "case_id": "PAPER-089",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 2,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-090": {
+      "parameters": {
+        "case_id": "PAPER-090",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 2,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-091": {
+      "parameters": {
+        "case_id": "PAPER-091",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 3,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-092": {
+      "parameters": {
+        "case_id": "PAPER-092",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 3,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-093": {
+      "parameters": {
+        "case_id": "PAPER-093",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 4,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-094": {
+      "parameters": {
+        "case_id": "PAPER-094",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 4,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-095": {
+      "parameters": {
+        "case_id": "PAPER-095",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 5,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-096": {
+      "parameters": {
+        "case_id": "PAPER-096",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 5,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-097": {
+      "parameters": {
+        "case_id": "PAPER-097",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 6,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-098": {
+      "parameters": {
+        "case_id": "PAPER-098",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 6,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-099": {
+      "parameters": {
+        "case_id": "PAPER-099",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 7,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-100": {
+      "parameters": {
+        "case_id": "PAPER-100",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 7,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-101": {
+      "parameters": {
+        "case_id": "PAPER-101",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            0.071,
+            -0.043
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    },
+    "PAPER-102": {
+      "parameters": {
+        "case_id": "PAPER-102",
+        "phase": "finite_regularity",
+        "case": {
+          "N": 4,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 16,
+          "error_boost": 24,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "solution_kind": "radial_power",
+          "singularity_alpha": 2.5,
+          "center": [
+            -0.113,
+            0.087
+          ]
+        },
+        "assembly_boosts": [
+          12,
+          16
+        ],
+        "error_boosts": [
+          20,
+          24
+        ],
+        "refinement_steps": 6,
+        "workers": 1
+      },
+      "driver": "driver_sequence",
+      "historical_resources": {
+        "partition": "compute",
+        "tasks": 1,
+        "cpus": 2,
+        "memory_gib": 6,
+        "gpus": 0,
+        "seconds": 2400
+      }
+    }
+  },
+  "schwarz": {
+    "PAPER-076": {
+      "parameters": {
+        "case_id": "PAPER-076",
+        "phase": "schwarz",
+        "case": {
+          "N": 16,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_B",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-076"
+    },
+    "PAPER-069": {
+      "parameters": {
+        "case_id": "PAPER-069",
+        "phase": "schwarz",
+        "case": {
+          "N": 12,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_A",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-069"
+    },
+    "PAPER-070": {
+      "parameters": {
+        "case_id": "PAPER-070",
+        "phase": "schwarz",
+        "case": {
+          "N": 12,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_B",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-070"
+    },
+    "PAPER-063": {
+      "parameters": {
+        "case_id": "PAPER-063",
+        "phase": "schwarz",
+        "case": {
+          "N": 8,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_A",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-063"
+    },
+    "PAPER-064": {
+      "parameters": {
+        "case_id": "PAPER-064",
+        "phase": "schwarz",
+        "case": {
+          "N": 8,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_B",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-064"
+    },
+    "PAPER-028": {
+      "parameters": {
+        "case_id": "PAPER-028",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "path": "axis",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          1,
+          2,
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-028"
+    },
+    "PAPER-032": {
+      "parameters": {
+        "case_id": "PAPER-032",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 6,
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "path": "diagonal",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          1,
+          2,
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-032"
+    },
+    "PAPER-016": {
+      "parameters": {
+        "case_id": "PAPER-016",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "path": "axis",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          1,
+          2,
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-016"
+    },
+    "PAPER-020": {
+      "parameters": {
+        "case_id": "PAPER-020",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "path": "diagonal",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          1,
+          2,
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-020"
+    },
+    "PAPER-057": {
+      "parameters": {
+        "case_id": "PAPER-057",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_A",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-057"
+    },
+    "PAPER-058": {
+      "parameters": {
+        "case_id": "PAPER-058",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_B",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-058"
+    },
+    "PAPER-004": {
+      "parameters": {
+        "case_id": "PAPER-004",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "path": "axis",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000,
+          "center": [
+            -0.2866566666666668,
+            0.0
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          1,
+          2,
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-004"
+    },
+    "PAPER-008": {
+      "parameters": {
+        "case_id": "PAPER-008",
+        "phase": "schwarz",
+        "case": {
+          "N": 6,
+          "p": 2,
+          "epsilon": 3e-05,
+          "radius": 0.62,
+          "path": "diagonal",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 20,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000,
+          "center": [
+            -0.10506579993451431,
+            -0.10506579993451431
+          ]
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          1,
+          2,
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-008"
+    },
+    "PAPER-051": {
+      "parameters": {
+        "case_id": "PAPER-051",
+        "phase": "schwarz",
+        "case": {
+          "N": 4,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_A",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-051"
+    },
+    "PAPER-052": {
+      "parameters": {
+        "case_id": "PAPER-052",
+        "phase": "schwarz",
+        "case": {
+          "N": 4,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_B",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-052"
+    },
+    "PAPER-075": {
+      "parameters": {
+        "case_id": "PAPER-075",
+        "phase": "schwarz",
+        "case": {
+          "N": 16,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_A",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz_strict",
+      "operator_case": "PAPER-075"
+    },
+    "PAPER-075-original": {
+      "parameters": {
+        "case_id": "PAPER-075",
+        "phase": "schwarz",
+        "case": {
+          "N": 16,
+          "p": 4,
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "path": "fixed_A",
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "projection_basis": "h1_orthonormal",
+          "solution_kind": "exponential",
+          "singularity_alpha": 2.5,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0,
+          "threshold": false,
+          "schwarz": false,
+          "kind": "solve",
+          "threshold_iterations": 18,
+          "pcg_maxiter": 3000
+        },
+        "assembly_boosts": [
+          8,
+          12
+        ],
+        "error_boosts": [
+          16,
+          20
+        ],
+        "refinement_steps": 6,
+        "workers": 1,
+        "schwarz_depths": [
+          4
+        ]
+      },
+      "driver": "driver_schwarz",
+      "operator_case": "PAPER-075",
+      "selected_for_final_table": false
+    }
+  },
+  "accurate": {
+    "p8-fixed_A": {
+      "parameters": {
+        "case": {
+          "N": 6,
+          "p": 8,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0
+        },
+        "label": "p8-fixed_A"
+      },
+      "ordinary": "data/references/p8-fixed_A-ordinary.npz",
+      "reference": "data/references/p8-fixed_A.json.gz"
+    },
+    "p8-fixed_B": {
+      "parameters": {
+        "case": {
+          "N": 6,
+          "p": 8,
+          "path": "fixed_B",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0
+        },
+        "label": "p8-fixed_B"
+      },
+      "ordinary": "data/references/p8-fixed_B-ordinary.npz",
+      "reference": "data/references/p8-fixed_B.json.gz"
+    },
+    "p10-fixed_A": {
+      "parameters": {
+        "case": {
+          "N": 6,
+          "p": 10,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0
+        },
+        "label": "p10-fixed_A"
+      },
+      "reference": "data/references/p10-fixed_A.json.gz"
+    },
+    "p12-fixed_A": {
+      "parameters": {
+        "case": {
+          "N": 6,
+          "p": 12,
+          "path": "fixed_A",
+          "epsilon": 0.0003,
+          "radius": 0.62,
+          "patch_layers": 2,
+          "quadrature_boost": 12,
+          "error_boost": 16,
+          "gamma0": 0.0,
+          "gamma1": 0.1,
+          "beta0": 16.0
+        },
+        "label": "p12-fixed_A"
+      },
+      "reference": "data/references/p12-fixed_A.json.gz"
+    }
+  }
+}
