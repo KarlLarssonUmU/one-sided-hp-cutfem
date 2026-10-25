@@ -11,8 +11,8 @@ authors:
     given-names: Mats G.
   - family-names: Larsson
     given-names: Karl
-version: "2026.10.24-code.2"
-doi: "10.5281/zenodo.23205908"
+version: "2026.10.25-docs.1"
+doi: "10.5281/zenodo.23635453"
 repository-code: "https://github.com/KarlLarssonUmU/one-sided-hp-cutfem"
 license-url: "https://github.com/KarlLarssonUmU/one-sided-hp-cutfem/blob/main/LICENSE"
 abstract: "Experiment code, compact reference results, regenerable exact tube certificates and the Numerical Verification Guide PDF for the hp stability paper. Code and software documentation use MIT; numerical data and the guide use CC BY 4.0. See LICENSE for scope."

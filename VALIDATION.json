@@ -1,9 +1,16 @@
 {
   "release": {
-    "version": "2026.10.24-code.2",
-    "doi": "10.5281/zenodo.23205908",
+    "version": "2026.10.25-docs.1",
+    "doi": "10.5281/zenodo.23635453",
     "repository_code": "https://github.com/KarlLarssonUmU/one-sided-hp-cutfem",
-    "selected_validation_receipt": "selected_validation"
+    "selected_validation_receipt": "selected_validation",
+    "documentation_update": {
+      "date": "2026-10-25",
+      "scope": "Updated guide references to match the revised manuscript numbering; numerical code, case inputs, reference data and dependency pins are unchanged.",
+      "previous_git_commit": "b6265c407371079d463d0c2ba18bcc3f1a658494",
+      "unchanged_tested_source_and_input_files": 76,
+      "numerical_validation_rerun": false
+    }
   },
   "scope": "Selected numerical validation with accuracy flags and unresolved results retained. Neither the complete 257-command campaign nor omitted raw archives have been audited by these checks.",
   "selected_validation": {
@@ -1024,10 +1031,10 @@
   "guide_build": {
     "status": "passed",
     "pages": 23,
-    "sha256": "0a30b0f0b4e1041c1248113977b85397b9897ff0bd54d0434f6c8ec701f6bcc5",
+    "sha256": "5bdba9df4301ca4ee90886a784f4c0361dae59dd6dda27f0f8f11710e3645b14",
     "references_resolved": true,
     "no_overfull_boxes": true,
-    "revision_date": "2026-10-24",
+    "revision_date": "2026-10-25",
     "table_5_guide_titles_verified": [
       "A Compact Schwarz Comparison",
       "Continuation Barrier",
@@ -1044,7 +1051,12 @@
       "Schwarz Condition Estimates and Iteration Counts",
       "Smooth Mesh and Degree Convergence",
       "Stabilization and Coefficient Conditioning"
-    ]
+    ],
+    "manuscript_reference_updates": {
+      "thm:hp-energy": "5.4",
+      "thm:l2-error": "5.6",
+      "rem:assignment-invariance": "4.7"
+    }
   },
   "licenses": {
     "code_and_software_documentation": "MIT",

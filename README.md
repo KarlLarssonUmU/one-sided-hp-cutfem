@@ -4,7 +4,7 @@ Numerical companion to **One-Sided p-Explicit Stability for High-Order Cut Finit
 
 This repository contains the code, experiment parameters, reference data and [Numerical Verification Guide](docs/numerical-verification.pdf) for the paper. The experiments use two-dimensional triangular $P_p$ finite elements and CPU-based dense linear algebra. They investigate stability, convergence, numerical precision, Schwarz comparisons and exact geometric certificates.
 
-**DOI:** [10.5281/zenodo.23205908](https://doi.org/10.5281/zenodo.23205908)
+**DOI:** [10.5281/zenodo.23635453](https://doi.org/10.5281/zenodo.23635453)
 
 ## Installation
 
@@ -83,7 +83,7 @@ These checks cover selected cases; they are neither a rerun of the complete **25
 
 ## Citation
 
-Erik Burman, Peter Hansbo, Mats G. Larson and Karl Larsson. *Numerical Companion to One-Sided p-Explicit Stability for High-Order Cut Finite Element Nitsche Methods* (2026). DOI: [10.5281/zenodo.23205908](https://doi.org/10.5281/zenodo.23205908).
+Erik Burman, Peter Hansbo, Mats G. Larson and Karl Larsson. *Numerical Companion to One-Sided p-Explicit Stability for High-Order Cut Finite Element Nitsche Methods* (2026). DOI: [10.5281/zenodo.23635453](https://doi.org/10.5281/zenodo.23635453).
 
 Machine-readable citation metadata are provided in [CITATION.cff](CITATION.cff). Repository: [KarlLarssonUmU/one-sided-hp-cutfem](https://github.com/KarlLarssonUmU/one-sided-hp-cutfem).
 

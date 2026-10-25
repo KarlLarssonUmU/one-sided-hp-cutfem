@@ -2,6 +2,8 @@
 
 The [validation record](../VALIDATION.json) contains numerical checks, tested environments, source hashes and retained accuracy flags. The [Numerical Verification Guide](numerical-verification.pdf) explains the checks and their mathematical scope. For installation and supported platforms, see the [README](../README.md).
 
+The documentation revision of 25 October 2026 updates the guide’s references to match the revised manuscript numbering. Numerical sources, case inputs, reference data and dependency pins are unchanged from the selected Linux validation below; the numerical tests were not rerun for this documentation update.
+
 ## Selected Linux Validation
 
 Version **2026.10.24-code.2** was tested on Linux x86-64 on 24 October 2026 with Python 3.12.14, the pinned dependencies, a 64-bit `numpy.longdouble` significand and multiprocessing `fork`. The run used four CPUs and 16 GiB and took approximately ten minutes.
